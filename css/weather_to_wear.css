@@ -1,0 +1,35 @@
+h1 {
+	color: black;
+	font-size: 50px;
+/*	text-align:center
+*/	margin-top:5%;
+	margin-left: 25%;
+	border-style: solid;
+	display:inline;
+}
+h3 {
+
+	font-family: "Actonia";
+}
+
+.welcome_button {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 45%;
+    margin-top:10%;
+    cursor: pointer;
+/*	color: black;
+	font-size: 30px;
+	margin-left:46%;*/
+}
+
+.slideshow{
+	margin-left: 15%;
+	padding-top: 70px;
+}
+
