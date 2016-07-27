@@ -2,7 +2,7 @@ h1 {
 	color: black;
 	font-size: 50px;
 /*	text-align:center
-*/	margin-top:5%;
+*/	margin-top:1%;
 	margin-left: 25%;
 	border-style: solid;
 	display:inline;
@@ -16,12 +16,12 @@ h3 {
 	background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 35px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 45%;
-    margin-top:10%;
+    margin-left: 20%;
+    margin-top:1%;
     cursor: pointer;
 /*	color: black;
 	font-size: 30px;
@@ -30,6 +30,6 @@ h3 {
 
 .slideshow{
 	margin-left: 15%;
-	padding-top: 70px;
-}
+	padding-top: 40px;
+	
 
