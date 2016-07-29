@@ -1,24 +1,23 @@
-<DOCTYPE! html>
+<DOCTYPE ! html>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Weather To Wear</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
+	<link rel="stylesheet" href="css/index.css"></link>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/index.css"></link>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="js/index.js"></script>
 </head>
-<style>
-.mySlides {display:none}
-</style>
+
+
 <body>
 
 
 <div class="jumbotron" style="background:#7E7F9A;">
-  <h1 class="sansseriff">Weather to Wear</h1>
+  <h1>Weather to Wear</h1>
   <div class="dropdown">
     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Gender
     <span class="caret"></span></button>
@@ -45,7 +44,20 @@
 </div>
 
 <script>
+var myIndex = 0;
+carousel();
 
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
 </script> 
 
 
