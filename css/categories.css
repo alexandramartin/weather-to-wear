@@ -61,3 +61,12 @@
     margin-left: auto;
     margin-right: auto 
 }
+
+
+
+.toptext{
+    font-family: Century Gothic;
+    color: #593959;
+    text-align: center;
+    font-size: 200%;
+}
