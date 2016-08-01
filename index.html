@@ -9,14 +9,22 @@
   <link rel="stylesheet" href="css/index.css"></link>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- <script src="api.openweathermap.org/data/2.5/weather?q={city name}"></script> -->
 	<script src="js/index.js"></script>
 </head>
+
 <style>
 .mySlides {display:none}
 </style>
 <body>
+<!-- 
+// US country code = 840 -->
+<!-- <div id="OpenWeatherMap"></div>
+return main -->
 
+  <div id="weather"></div>
 
+<!-- <img src="http;//openweathermap.org/img/w/01d.png"> -->
 <div class="jumbotron" style="background:#7E7F9A;">
   <h1 class="sansseriff">Weather to Wear</h1>
   <div class="dropdown">
@@ -26,6 +34,10 @@
       <li><a href="#">Women</a></li>
       <li><a href="#">Men</a></li>
     </ul>
+
+    <div id="weather">
+
+    </div>
   </div>
 </div>
 
