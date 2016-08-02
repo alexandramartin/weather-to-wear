@@ -1,27 +1,60 @@
 h1 {
-	text-align: bottom center;
-    background-color: purple;
-    font-family: "Actonia";
-    height: 170px;
+	font-family: Century Gothic;
+	color: #3C474B;
+	text-align: center;
+	font-size: 400%
 }
 
 img {
-	width: 30%;
+	width: 20%;
 	height:400px;
 	display:block;
 	margin: auto;
-	
+	padding-bottom: 100px;
 }
 
-.picture {
-	width: 25%;
-	height: 400px;
-	margin: 50;
+table {
+	width:100%;
 }
-
 .pictures {
-	width: 25%;
+	width: 70%;
 	height: 400px;
-
+	padding-bottom: 30px;
+}
+.picture {
+	width:70%;
+	height: 400px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+.picture1 {
+	width:90%;
+	padding-left: 30px;
+	padding-bottom: 20px;
 }
 
+.thumbnail {
+	width: 60%;
+	height: 700px;
+}
+
+.pics1 {
+	width: 35%;
+	height: 400px;
+	padding-right: 405px;
+	padding-top: 15px;
+}
+
+.pix1 {
+	width:70%;
+	height: 400px;
+	padding-right: 400px;
+	padding-top: 90px;
+
+}
+.pix {
+	width:100%;
+	height: 400px;
+	padding-top: 5px;
+
+}
