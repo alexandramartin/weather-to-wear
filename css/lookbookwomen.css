@@ -1,10 +1,9 @@
 h1 {
 	text-align: center;
-	margin-top: 55px;
+	margin-top: 100px;
 }
-.col-md-3{
+.col-md-4{
 	padding:25px;
-
 }
 
 .navbar {
@@ -14,5 +13,9 @@ h1 {
     font-size: 11px !important;
     letter-spacing: 4px;
     opacity:0.9;
-    color: #F5F5F5;
+}
+
+li#weather-api div.weather {
+	color: white;
+
 }
