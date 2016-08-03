@@ -7,6 +7,9 @@ $(document).ready(function(){
 			// debugger;
 			var temperature = data.main.temp;
 			var description = data.weather[0].description
+			// if (description == "mist") {
+			// 	$("body").append.url("http://openweathermap.org/img/w/10d.png")
+			// }
 			$("body").append("<div id ='weather'>" + "Temperature is:" + temperature + "</div>"); 
 			$("body").append("<div id='weather'>" + "It appears to be"  + description + "</div>");
 
