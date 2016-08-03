@@ -16,3 +16,7 @@ h1 {
     opacity:0.9;
     color: #F5F5F5;
 }
+
+body{
+	background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/brickwall.png");
+}

@@ -14,3 +14,7 @@ h1 {
     letter-spacing: 4px;
     opacity:0.9;
 }
+
+body{
+	background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/brickwall.png");
+}
