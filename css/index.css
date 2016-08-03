@@ -6,7 +6,8 @@
       filter: grayscale(90%); /* make all photos black and white */
       width: 100%; /* Set width to 100% */
       margin: auto;
-  }
+      z-index: -1;
+     
 /*
   .bg-1 {
       background: #2d2d30;
@@ -101,12 +102,15 @@
 .dropdown-menu li a:hover {
     background-color: red !important;
 }
-#weather1{
-  border-color: purple;
+#weather{
+  border-color: #2E294E;
   border-style: ridge;
   display:inline;
   border-spacing:50px;
-  border-collapse: separate;
+  margin: 10px;
+
+  /*border-collapse: separate;
+*/ 
 }
 
 
