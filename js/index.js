@@ -7,26 +7,14 @@ $(document).ready(function(){
 			// debugger;
 			var temperature = data.main.temp;
 			var description = data.weather[0].description
-			$("body").append("<div id ='weather'>" + "Temperature is:" + temperature + "</div>"); 
-			$("body").append("<div id='weather'>" + "It appears to be"  + description + "</div>");
+			//access the icon value inside of data
+			//concat the img url string with the icon value data
+			//append that to the weather-api div inside of and img tag with the img url string as the src of the image
+			$("#weather-api").append("<div class='weather' style='color: whitesmoke'>" + "Temperature is:" + temperature + "</div>"); 
+			$("#weather-api").append("<div class='weather' style='color: whitesmoke'>" + "It appears to be "  + description + "</div>");
 
 		}
 	})
-
-	var myIndex = 0;
-	carousel();
-
-	function carousel() {
-	    var i;
-	    var x = document.getElementsByClassName("mySlides");
-	    for (i = 0; i < x.length; i++) {
-	       x[i].style.display = "none";
-	    }
-	    myIndex++;
-	    if (myIndex > x.length) {myIndex = 1}
-	    x[myIndex-1].style.display = "block";
-	    setTimeout(carousel, 2000); // Change image every 2 seconds
-	}
 
 
 
